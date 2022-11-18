@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+body{
+    font-family:'Monserrat',sans-serif;
+}
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#3f3f3f;
+}
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner{
+    max-height: 39rem;
+}
+footer{
+    background-color: gray;
+    min-height: 100px;
+    padding: 20px 20px;
+}
+footer p{
+    color: bisque;
+    text-align: center;
+    font-size: 20px;
+}
+#iconos svg path{
+    color:bisque;
+}
+#iconos{
+    font-size: 40px;
+    padding:0 10px;
+}
+.nav-item{
+    padding: 20px 20px 20px 20px;
+}
+.rounded{
+    padding: 10px 10px;
+}
+
+
+
+
+@media(max-width:768px){
+    #intro,#equipo{
+        width:90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+    }
+}
+
+
+@media(max-widht: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+}
+
